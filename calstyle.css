@@ -1,0 +1,141 @@
+.center{
+        width: 100%;
+       
+        display:flex;
+        align-items: center;
+        text-align: center;
+        font-size: inherit;
+        user-select: none;
+}
+.name{
+  text-align: center;
+  justify-content: center;
+  padding-left: 50%;
+}
+
+
+.frame{
+    
+        width: 100%;
+        height: 100vh;
+        background-color: #d4e8ed;
+        display:flex;
+        align-items: center;
+        padding-left: 550px;
+        font-size: inherit;
+        user-select: none;
+        
+    }
+    
+.dot{
+
+}
+.calculator{
+    width: 430px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 20px;
+   background-color: #595959;
+   font-size: inherit;
+        user-select: none;
+   
+}
+
+#output {
+  background-color: #000;
+  color:white;
+  width: 100%;
+  height: 80px;
+  font-size: 48px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 0px 0px 0px 0px;
+  box-shadow: 0px 0px 30px -5px #fff;
+  box-sizing: border-box;
+  display: inline-block;
+  user-select: none;
+}
+
+#btn {
+  margin-top: 15px;
+}
+.btn2 {
+  color: #fff;
+  text-align: center;
+  line-height: 70px;
+  display: inline-block;
+  background-color: #595959;
+  border: 1px solid #33ccff;
+  height: 70px;
+  width: 70px;
+  font-size:inherit;
+  margin-right: -4.6px;
+  cursor: pointer;
+  border-radius: 30px;
+  user-select: none;
+  justify-content: center;
+  align-items: center;
+
+}
+.btn2:hover {
+  background-color: #0066ff;
+  box-shadow: 0px 0px 30px 0px #fff;
+}
+.btn2:active {
+  background-color: #80b3ff;
+  box-shadow: 0px 0px 30px 0px #000;
+}
+.number {
+  background-color: #404040;
+}
+.number:active {
+  background-color: #80b3ff;
+  box-shadow: 0px 0px 30px 0px #000;
+}
+#zero {
+  width: 70px;
+}
+#dot {
+  font-weight: bold;
+  width: 140px;
+}
+#equals {
+  background-color: black;
+  width: 139px;
+}
+/* for id we use # */
+#equals:hover {
+  background-color: #6ae91f;
+  color:black ;
+  box-shadow: 0px 0px 30px -5px #fff;
+}
+#delete {
+  background-color:black;
+}
+#delete:hover {
+  background-color: #6ae91f;
+}
+#delete:active {
+  background-color: #6ae91f;
+  box-shadow: 0px 0px 30px 0px #000;
+}
+#clear {
+  background-color: black;
+}
+#clear:hover {
+  background-color: #6ae91f;
+}
+#clear:active {
+  background-color: #6ae91f;
+  box-shadow: 0px 0px 30px 0px #000;
+}
+#radians, #degrees {
+    background-color: #595959;
+  width: 135px;
+}
+#radians:hover {
+  background-color: #6ae91f;
+}
+#degrees:hover {
+  background-color: #6ae91f;
+}
